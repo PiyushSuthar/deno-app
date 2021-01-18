@@ -1,0 +1,5 @@
+scripts:
+  start: deno run --allow-net --allow-env --allow-read index.ts
+  dev:
+    cmd: deno run --allow-net --allow-read --allow-env --unstable index.ts
+    watch: true
